@@ -1,0 +1,112 @@
+html{
+    height:100%;
+    
+}
+html,body{
+    min-height:100%;
+    
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    
+}
+body{
+    border:20px solid #2B81AC;
+    background-color: #3399cc;
+}
+header i{
+    font-size: 30px;
+    padding: 10px;
+}
+.ba-container{
+   
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+.ba-cities-list{
+    
+    color:#fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.ba-cities-list:hover li {
+    opacity: .7;
+  }
+  .ba-cities-list li:hover {
+    opacity: 1;
+  }
+  
+.ba-city{
+    text-align: center;
+    width:25%;
+    border:2px solid #fff;
+}
+.ba-city h3{
+    font-size:30px;
+    margin: 0;
+    padding: 20px;
+}
+.ba-w50{
+    width: 50%;
+}
+
+.ba-w100{
+    width: 100%;
+}
+.ba-lisbon{
+    background-color:#3399cc;
+}
+.ba-paris{
+    background-color: #33CCCC;
+}
+.ba-belgrade{
+    background-color: #996699;
+}
+.ba-moscow{
+    background-color: #C24747;
+}
+.ba-telaviv{
+    background-color: #E2674A;
+}
+.ba-cair{
+    background-color: #FFCC66;
+}
+.ba-newyork{
+    background-color: #99CC99;
+}
+.ba-newdelhi{
+    background-color: #669999;
+}
+.ba-sanfrancisco{
+    background-color: #CC6699;
+}
+.ba-tokyo{
+    background-color: #339966;
+}
+.ba-sydney{
+    background-color: #666699;
+}
+.ba-temp{
+    font-size: 30px;
+    margin:0;
+    padding-bottom:20px; 
+}
+.ba-temp, .wi, h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+h1, .ba-container i{
+    color:#fff;
+}
+.ba-footer p{
+    color:#fff;
+    font-size: 18px;
+}
