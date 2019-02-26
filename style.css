@@ -13,19 +13,27 @@ html,body{
     
 }
 body{
+    margin:0;
+    padding:0;
     border:20px solid #2B81AC;
     background-color: #3399cc;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 header i{
     font-size: 30px;
     padding: 10px;
 }
 .ba-container{
-   
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 
+}
+.ba-city span{
+    color:#C2F0F0;
+}
+.ba-cities-list .wi{
+    color:#C2F0F0;
 }
 .ba-cities-list{
     
@@ -50,7 +58,7 @@ header i{
     border:2px solid #fff;
 }
 .ba-city h3{
-    font-size:30px;
+    font-size:26px;
     margin: 0;
     padding: 20px;
 }
@@ -106,6 +114,7 @@ header i{
 h1, .ba-container i{
     color:#fff;
 }
+
 .ba-footer p{
     color:#fff;
     font-size: 18px;
